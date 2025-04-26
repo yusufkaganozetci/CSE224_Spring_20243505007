@@ -1,4 +1,4 @@
-This repository is created for CSE-224 Spring 2025 project. Since OpenLane itself is also a Github repository, I created this repository inside my local /OpenLane/designs. 
+This repository is created for CSE-224 Spring 2025 project. Since OpenLane itself is also a GitHub repository, I created this repository inside my local /OpenLane/designs. 
 
 Folder Structure:
 
@@ -18,6 +18,7 @@ OpenLane
 
 ->->-> pin_order.cfg
 
+----------------------------------------------------------------------------------------------------
 
 First Project (Twos Complement)
 
