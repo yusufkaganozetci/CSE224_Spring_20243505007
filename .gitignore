@@ -1,0 +1,4 @@
+/OpenLane/*
+
+/OpenLane/designs/
+!OpenLane/designs/**
