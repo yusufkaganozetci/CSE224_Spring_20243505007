@@ -1,0 +1,21 @@
+digraph "TopModule" {
+label="TopModule";
+rankdir="LR";
+remincross=true;
+n1 [ shape=diamond, label="count", color="black", fontcolor="black" ];
+n2 [ shape=octagon, label="an", color="black", fontcolor="black" ];
+n3 [ shape=octagon, label="seg", color="black", fontcolor="black" ];
+n4 [ shape=octagon, label="rst", color="black", fontcolor="black" ];
+n5 [ shape=octagon, label="clk", color="black", fontcolor="black" ];
+c7 [ shape=record, label="{{<p6> digit}|display\nSevenSegmentDisplay|{<p3> seg}}",  ];
+c8 [ shape=record, label="{{<p5> clk|<p4> rst}|counter\nZeroToFiveCounter|{<p1> count}}",  ];
+v0 [ label="8'11111110" ];
+x1 [shape=point, ];
+c8:p1:e -> n1:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n1:e -> c7:p6:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+x1:e -> n2:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+c7:p3:e -> n3:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+n4:e -> c8:p4:w [color="black", fontcolor="black", label=""];
+n5:e -> c8:p5:w [color="black", fontcolor="black", label=""];
+v0:e -> x1:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
+}
