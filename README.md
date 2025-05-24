@@ -38,4 +38,19 @@ The original die area was sufficient for the first project (two's complement), b
 KLayout Screenshot:
 ![Project2_ss](https://github.com/user-attachments/assets/771eb366-d2ec-460c-9284-cf7bb95f65b2)
 
+----------------------------------------------------------------------------------------------------
+
+Third Project (Zero to Five Counter)
+
+I had to modify the die_area parameter in the config.json file from "0 0 34.5 57.12" to "0 0 100 100" again like in alu.
+
+KLayout Screenshots:
+
+Depth 2:
+![Project3 Depth 2](https://github.com/user-attachments/assets/8a9fc6c3-cc7f-431e-8f43-a77e63fb76b2)
+
+Depth 1:
+![Project3 Depth 1](https://github.com/user-attachments/assets/ae71c37c-5be5-499d-a905-6dd786edab5e)
+
+
 
