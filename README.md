@@ -44,6 +44,8 @@ Third Project (Zero to Five Counter)
 
 I had to modify the die_area parameter in the config.json file from "0 0 34.5 57.12" to "0 0 100 100" again like in alu.
 
+Also since we have clock in this design, config.json file is updated accordingly and TopModule.sdc file is added.
+
 KLayout Screenshots:
 
 Depth 2:
