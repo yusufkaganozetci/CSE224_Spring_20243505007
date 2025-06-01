@@ -54,5 +54,13 @@ Depth 2:
 Depth 1:
 ![Project3 Depth 1](https://github.com/user-attachments/assets/ae71c37c-5be5-499d-a905-6dd786edab5e)
 
+----------------------------------------------------------------------------------------------------
 
+Fourth Project (Alu and Register File)
 
+The TopModule.v file has been added to the project (it was not normally in the lab). In addition, the die_area parameter had to be significantly increased, and its value is now ‘0 0 3500 3500’. 
+
+Since creating a design in OpenLane took a lot of time, I reduced the number of registers from 32 to 4. All other design logic remains the same.
+
+KLayout Screenshot:
+![Project4 ss](https://github.com/user-attachments/assets/e80b24b1-d46d-4595-be7b-1821c99ce037)
