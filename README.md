@@ -62,5 +62,9 @@ The TopModule.v file has been added to the project (it was not normally in the l
 
 Since creating a design in OpenLane took a lot of time, I reduced the number of registers from 32 to 4. All other design logic remains the same.
 
+! Important Note
+
+I started to use Git LFS since files are started to become very large. So if you want to see codes, results, or any other large file. , you should press the view raw button and download file itself.
+
 KLayout Screenshot:
 ![Project4 ss](https://github.com/user-attachments/assets/e80b24b1-d46d-4595-be7b-1821c99ce037)
