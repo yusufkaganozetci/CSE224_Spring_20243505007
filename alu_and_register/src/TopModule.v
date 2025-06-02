@@ -1,3 +1,57 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1fa39c3750894a74a48599f039a8a6ca5664ff0218771a6209760565aba9881a
-size 1023
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 15.04.2025 23:38:33
+// Design Name: 
+// Module Name: TopModule
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module TopModule (
+    input wire CLK,
+    input wire WE3,
+    
+    input wire [1:0] A1,
+    input wire [1:0] A2, 
+    input wire [1:0] A3,
+    input wire [31:0] WD3,
+    
+    input wire [1:0] alu_opcode,
+    
+    output wire [31:0] RD1,
+    output wire [31:0] RD2,
+    output wire [31:0] alu_result
+);
+
+register_file rf (
+    .CLK(CLK),
+    .WE3(WE3),
+    .A1(A1),
+    .A2(A2),
+    .A3(A3),
+    .WD3(WD3),
+    .RD1(RD1),
+    .RD2(RD2)
+);
+
+alu my_alu (
+    .inputA(RD1),
+    .inputB(RD2),
+    .opcode(alu_opcode),
+    .result(alu_result)
+);
+
+endmodule
