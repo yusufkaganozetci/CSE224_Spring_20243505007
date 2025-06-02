@@ -66,5 +66,9 @@ Since creating a design in OpenLane took a lot of time, I reduced the number of 
 
 I started to use Git LFS since files are started to become very large. So if you want to see codes, results, or any other large file. , you should press the view raw button and download file itself.
 
+!! New Update
+
+Since I exceeded GitLFS max data storage amount, GitLFS is disabled for this repository. So some files in "runs" folder may not be visible in GitHub. I will probably add "runs" folder in GitHub ignore in project 5.
+
 KLayout Screenshot:
 ![Project4 ss](https://github.com/user-attachments/assets/e80b24b1-d46d-4595-be7b-1821c99ce037)
