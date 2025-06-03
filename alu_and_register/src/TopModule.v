@@ -24,9 +24,9 @@ module TopModule (
     input wire CLK,
     input wire WE3,
     
-    input wire [1:0] A1,
-    input wire [1:0] A2, 
-    input wire [1:0] A3,
+    input wire [4:0] A1,
+    input wire [4:0] A2, 
+    input wire [4:0] A3,
     input wire [31:0] WD3,
     
     input wire [1:0] alu_opcode,

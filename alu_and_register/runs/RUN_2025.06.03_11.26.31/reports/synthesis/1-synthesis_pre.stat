@@ -1,0 +1,25 @@
+
+51. Printing statistics.
+
+=== TopModule ===
+
+   Number of wires:               3220
+   Number of wire bits:           4349
+   Number of public wires:          42
+   Number of public wire bits:    1171
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               4298
+     $_ANDNOT_                     170
+     $_AND_                          1
+     $_DFFE_PP_                   1024
+     $_MUX_                       2305
+     $_NAND_                        21
+     $_NOR_                         40
+     $_NOT_                        315
+     $_ORNOT_                       13
+     $_OR_                         315
+     $_XNOR_                        12
+     $_XOR_                         82
+

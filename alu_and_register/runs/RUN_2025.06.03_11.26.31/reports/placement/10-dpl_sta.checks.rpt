@@ -1,0 +1,236 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: _8966_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _8966_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _8966_/CLK (sky130_fd_sc_hd__dfxtp_1)
+     1    0.01    0.05    0.30    0.30 v _8966_/Q (sky130_fd_sc_hd__dfxtp_1)
+                                         rf.registers[19][21] (net)
+                  0.05    0.00    0.30 v wire3547/A (sky130_fd_sc_hd__buf_12)
+     2    0.21    0.06    0.15    0.45 v wire3547/X (sky130_fd_sc_hd__buf_12)
+                                         net3547 (net)
+                  0.28    0.13    0.59 v max_cap3546/A (sky130_fd_sc_hd__buf_12)
+     2    0.17    0.06    0.26    0.85 v max_cap3546/X (sky130_fd_sc_hd__buf_12)
+                                         net3546 (net)
+                  0.27    0.13    0.98 v _7253_/A0 (sky130_fd_sc_hd__mux2_4)
+     1    0.04    0.10    0.42    1.39 v _7253_/X (sky130_fd_sc_hd__mux2_4)
+                                         _3540_ (net)
+                  0.10    0.01    1.40 v wire1893/A (sky130_fd_sc_hd__buf_12)
+     1    0.23    0.08    0.20    1.60 v wire1893/X (sky130_fd_sc_hd__buf_12)
+                                         net1893 (net)
+                  0.47    0.23    1.83 v wire1892/A (sky130_fd_sc_hd__clkbuf_16)
+     1    0.24    0.11    0.39    2.22 v wire1892/X (sky130_fd_sc_hd__clkbuf_16)
+                                         net1892 (net)
+                  0.51    0.25    2.47 v _7254_/A (sky130_fd_sc_hd__buf_12)
+     1    0.29    0.10    0.37    2.85 v _7254_/X (sky130_fd_sc_hd__buf_12)
+                                         _0054_ (net)
+                  0.71    0.35    3.20 v _8966_/D (sky130_fd_sc_hd__dfxtp_1)
+                                  3.20   data arrival time
+
+                  0.00   10.00   10.00   clock core_clock (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                          0.00   10.00   clock reconvergence pessimism
+                                 10.00 ^ _8966_/CLK (sky130_fd_sc_hd__dfxtp_1)
+                         -0.38    9.62   library setup time
+                                  9.62   data required time
+-----------------------------------------------------------------------------
+                                  9.62   data required time
+                                 -3.20   data arrival time
+-----------------------------------------------------------------------------
+                                  6.42   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+
+max slew violations count Typical: 0
+max fanout violations count Typical: 0
+max cap violations count Typical: 0
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 1 unannotated drivers.
+ CLK
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 50 input ports missing set_input_delay.
+  A1[0]
+  A1[1]
+  A1[2]
+  A1[3]
+  A1[4]
+  A2[0]
+  A2[1]
+  A2[2]
+  A2[3]
+  A2[4]
+  A3[0]
+  A3[1]
+  A3[2]
+  A3[3]
+  A3[4]
+  WD3[0]
+  WD3[10]
+  WD3[11]
+  WD3[12]
+  WD3[13]
+  WD3[14]
+  WD3[15]
+  WD3[16]
+  WD3[17]
+  WD3[18]
+  WD3[19]
+  WD3[1]
+  WD3[20]
+  WD3[21]
+  WD3[22]
+  WD3[23]
+  WD3[24]
+  WD3[25]
+  WD3[26]
+  WD3[27]
+  WD3[28]
+  WD3[29]
+  WD3[2]
+  WD3[30]
+  WD3[31]
+  WD3[3]
+  WD3[4]
+  WD3[5]
+  WD3[6]
+  WD3[7]
+  WD3[8]
+  WD3[9]
+  WE3
+  alu_opcode[0]
+  alu_opcode[1]
+Warning: There are 96 unconstrained endpoints.
+  RD1[0]
+  RD1[10]
+  RD1[11]
+  RD1[12]
+  RD1[13]
+  RD1[14]
+  RD1[15]
+  RD1[16]
+  RD1[17]
+  RD1[18]
+  RD1[19]
+  RD1[1]
+  RD1[20]
+  RD1[21]
+  RD1[22]
+  RD1[23]
+  RD1[24]
+  RD1[25]
+  RD1[26]
+  RD1[27]
+  RD1[28]
+  RD1[29]
+  RD1[2]
+  RD1[30]
+  RD1[31]
+  RD1[3]
+  RD1[4]
+  RD1[5]
+  RD1[6]
+  RD1[7]
+  RD1[8]
+  RD1[9]
+  RD2[0]
+  RD2[10]
+  RD2[11]
+  RD2[12]
+  RD2[13]
+  RD2[14]
+  RD2[15]
+  RD2[16]
+  RD2[17]
+  RD2[18]
+  RD2[19]
+  RD2[1]
+  RD2[20]
+  RD2[21]
+  RD2[22]
+  RD2[23]
+  RD2[24]
+  RD2[25]
+  RD2[26]
+  RD2[27]
+  RD2[28]
+  RD2[29]
+  RD2[2]
+  RD2[30]
+  RD2[31]
+  RD2[3]
+  RD2[4]
+  RD2[5]
+  RD2[6]
+  RD2[7]
+  RD2[8]
+  RD2[9]
+  alu_result[0]
+  alu_result[10]
+  alu_result[11]
+  alu_result[12]
+  alu_result[13]
+  alu_result[14]
+  alu_result[15]
+  alu_result[16]
+  alu_result[17]
+  alu_result[18]
+  alu_result[19]
+  alu_result[1]
+  alu_result[20]
+  alu_result[21]
+  alu_result[22]
+  alu_result[23]
+  alu_result[24]
+  alu_result[25]
+  alu_result[26]
+  alu_result[27]
+  alu_result[28]
+  alu_result[29]
+  alu_result[2]
+  alu_result[30]
+  alu_result[31]
+  alu_result[3]
+  alu_result[4]
+  alu_result[5]
+  alu_result[6]
+  alu_result[7]
+  alu_result[8]
+  alu_result[9]

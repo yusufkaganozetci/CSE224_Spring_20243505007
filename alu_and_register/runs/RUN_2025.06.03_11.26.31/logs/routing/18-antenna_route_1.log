@@ -1,0 +1,354 @@
+OpenROAD b16bda7e82721d10566ff7e2b68f1ff0be9f9e38 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+define_corners Typical
+read_liberty -corner Typical /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+[INFO]: Reading ODB at '/openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/routing/18-global.odb'…
+Reading design constraints file at '/openlane/designs/alu_and_register/src/TopModule.sdc'…
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met3. 
+[INFO]: Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+-congestion_iterations 50 -verbose -congestion_report_file /openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/routing/groute-congestion.rpt
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0019] Found 236 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 827
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 29518
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal    5143515       2528280          50.85%
+met2       Vertical      3857256       2547858          33.95%
+met3       Horizontal    2571504       1768751          31.22%
+met4       Vertical      1543815        867916          43.78%
+met5       Horizontal     514098        223146          56.59%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 167786
+[INFO GRT-0198] Via related Steiner nodes: 2808
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 220449
+[INFO GRT-0112] Final usage 3D: 3428973
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1           2528280       1300170           51.43%             0 /  0 /  0
+met2           2547858       1251377           49.11%             0 /  0 /  0
+met3           1768751         89232            5.04%             0 /  0 /  0
+met4            867916        126847           14.62%             0 /  0 /  0
+met5            223146             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total          7935951       2767626           34.87%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 19797348 um
+[INFO GRT-0014] Routed nets: 10127
+[INFO GRT-0006] Repairing antennas, iteration 1.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[WARNING ANT-0009] Net _0026_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0084_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0091_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0169_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0181_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0186_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0194_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0247_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0277_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0297_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0330_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0450_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0471_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0515_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0517_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0537_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0567_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0570_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0580_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0614_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0689_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0766_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0766_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0786_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0807_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0862_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0865_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0886_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0889_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0896_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0897_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0904_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0998_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _1416_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _1525_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _1571_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _1926_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _3517_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _3621_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _3677_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net rf.registers\[19\]\[24\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net rf.registers\[31\]\[10\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net63 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net84 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net247 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net340 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net441 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net526 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net1350 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net1385 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net1385 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net1461 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net1468 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net1497 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net1837 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2007 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2715 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2748 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2763 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2836 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2935 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2937 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3000 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3108 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3170 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3206 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3311 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3384 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3391 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3431 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3512 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3559 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3585 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3630 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3647 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3668 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3826 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3900 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3989 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net4004 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net4004 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net4007 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net4031 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net4074 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net4184 requires more than 10 diodes per gate to repair violations.
+[INFO GRT-0012] Found 1050 antenna violations.
+[INFO GRT-0015] Inserted 6542 diodes.
+[INFO GRT-0054] Using detailed placer to place 1040 diodes.
+[INFO GRT-0009] rerouting 8452 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 487
+[INFO GRT-0006] Repairing antennas, iteration 2.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[WARNING ANT-0009] Net _0065_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0220_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net _0776_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net rf.registers\[27\]\[26\] requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net1340 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2768 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3119 requires more than 10 diodes per gate to repair violations.
+[INFO GRT-0012] Found 287 antenna violations.
+[INFO GRT-0015] Inserted 1882 diodes.
+[INFO GRT-0054] Using detailed placer to place 447 diodes.
+[INFO GRT-0009] rerouting 2246 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 827
+[INFO GRT-0006] Repairing antennas, iteration 3.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[WARNING ANT-0009] Net _0991_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3809 requires more than 10 diodes per gate to repair violations.
+[INFO GRT-0012] Found 118 antenna violations.
+[INFO GRT-0015] Inserted 2194 diodes.
+[INFO GRT-0054] Using detailed placer to place 628 diodes.
+[INFO GRT-0009] rerouting 639 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 827
+[INFO GRT-0006] Repairing antennas, iteration 4.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[WARNING ANT-0009] Net net2938 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3260 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3260 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3260 requires more than 10 diodes per gate to repair violations.
+[INFO GRT-0012] Found 53 antenna violations.
+[INFO GRT-0015] Inserted 1545 diodes.
+[INFO GRT-0054] Using detailed placer to place 318 diodes.
+[INFO GRT-0009] rerouting 275 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 336
+[INFO GRT-0006] Repairing antennas, iteration 5.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[WARNING ANT-0009] Net _0897_ requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net2454 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3259 requires more than 10 diodes per gate to repair violations.
+[WARNING ANT-0009] Net net3274 requires more than 10 diodes per gate to repair violations.
+[INFO GRT-0012] Found 21 antenna violations.
+[INFO GRT-0015] Inserted 507 diodes.
+[INFO GRT-0054] Using detailed placer to place 106 diodes.
+[INFO GRT-0009] rerouting 99 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 336
+[INFO GRT-0006] Repairing antennas, iteration 6.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 13 antenna violations.
+[INFO GRT-0015] Inserted 270 diodes.
+[INFO GRT-0054] Using detailed placer to place 5 diodes.
+[INFO GRT-0009] rerouting 63 nets.
+[INFO GRT-0001] Minimum degree: 3
+[INFO GRT-0002] Maximum degree: 275
+[INFO GRT-0006] Repairing antennas, iteration 7.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 9 antenna violations.
+[INFO GRT-0015] Inserted 34 diodes.
+[INFO GRT-0009] rerouting 29 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 239
+[INFO GRT-0006] Repairing antennas, iteration 8.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 5 antenna violations.
+[INFO GRT-0015] Inserted 5 diodes.
+[INFO GRT-0009] rerouting 14 nets.
+[INFO GRT-0001] Minimum degree: 6
+[INFO GRT-0002] Maximum degree: 179
+[INFO GRT-0006] Repairing antennas, iteration 9.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 4 antenna violations.
+[INFO GRT-0015] Inserted 4 diodes.
+[INFO GRT-0009] rerouting 9 nets.
+[INFO GRT-0001] Minimum degree: 12
+[INFO GRT-0002] Maximum degree: 97
+[INFO GRT-0006] Repairing antennas, iteration 10.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 4 antenna violations.
+[INFO GRT-0015] Inserted 4 diodes.
+[INFO GRT-0009] rerouting 8 nets.
+[INFO GRT-0001] Minimum degree: 13
+[INFO GRT-0002] Maximum degree: 179
+[INFO GRT-0006] Repairing antennas, iteration 11.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 4 antenna violations.
+[INFO GRT-0015] Inserted 4 diodes.
+[INFO GRT-0009] rerouting 8 nets.
+[INFO GRT-0001] Minimum degree: 13
+[INFO GRT-0002] Maximum degree: 30
+[INFO GRT-0006] Repairing antennas, iteration 12.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 4 antenna violations.
+[INFO GRT-0015] Inserted 4 diodes.
+[INFO GRT-0009] rerouting 9 nets.
+[INFO GRT-0001] Minimum degree: 13
+[INFO GRT-0002] Maximum degree: 120
+[INFO GRT-0006] Repairing antennas, iteration 13.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 5 antenna violations.
+[INFO GRT-0015] Inserted 112 diodes.
+[INFO GRT-0054] Using detailed placer to place 12 diodes.
+[INFO GRT-0009] rerouting 14 nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 180
+[INFO GRT-0006] Repairing antennas, iteration 14.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 4 antenna violations.
+[INFO GRT-0015] Inserted 4 diodes.
+[INFO GRT-0009] rerouting 9 nets.
+[INFO GRT-0001] Minimum degree: 13
+[INFO GRT-0002] Maximum degree: 180
+[INFO GRT-0006] Repairing antennas, iteration 15.
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0012] Found 4 antenna violations.
+[INFO GRT-0015] Inserted 4 diodes.
+[INFO GRT-0009] rerouting 9 nets.
+[INFO GRT-0001] Minimum degree: 13
+[INFO GRT-0002] Maximum degree: 120
+Placement Analysis
+---------------------------------
+total displacement          0.0 u
+average displacement        0.0 u
+max displacement            0.0 u
+original HPWL        18768094.5 u
+legalized HPWL       18768095.9 u
+delta HPWL                    0 %
+
+[INFO DPL-0020] Mirrored 25615 instances
+[INFO DPL-0021] HPWL before          18768095.9 u
+[INFO DPL-0022] HPWL after           18751441.2 u
+[INFO DPL-0023] HPWL delta               -0.1 %
+[INFO]: Setting signal min routing layer to: met1 and clock min routing layer to met3. 
+[INFO]: Setting signal max routing layer to: met5 and clock max routing layer to met5. 
+-congestion_iterations 50 -verbose -congestion_report_file /openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/routing/groute-congestion.rpt
+[INFO GRT-0020] Min routing layer: met1
+[INFO GRT-0021] Max routing layer: met5
+[INFO GRT-0022] Global adjustment: 30%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer li1     Track-Pitch = 0.4600  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met1    Track-Pitch = 0.3400  line-2-Via Pitch: 0.3400
+[INFO GRT-0088] Layer met2    Track-Pitch = 0.4600  line-2-Via Pitch: 0.3500
+[INFO GRT-0088] Layer met3    Track-Pitch = 0.6800  line-2-Via Pitch: 0.6150
+[INFO GRT-0088] Layer met4    Track-Pitch = 0.9200  line-2-Via Pitch: 1.0400
+[INFO GRT-0088] Layer met5    Track-Pitch = 3.4000  line-2-Via Pitch: 3.1100
+[INFO GRT-0019] Found 236 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 827
+[INFO GRT-0003] Macros: 0
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 29518
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+li1        Vertical            0             0          0.00%
+met1       Horizontal    5143515       2528291          50.85%
+met2       Vertical      3857256       2547858          33.95%
+met3       Horizontal    2571504       1768751          31.22%
+met4       Vertical      1543815        867916          43.78%
+met5       Horizontal     514098        223146          56.59%
+---------------------------------------------------------------
+
+[INFO GRT-0101] Running extra iterations to remove overflow.
+[INFO GRT-0197] Via related to pin nodes: 177891
+[INFO GRT-0198] Via related Steiner nodes: 2965
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 232227
+[INFO GRT-0112] Final usage 3D: 3467565
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+li1                  0             0            0.00%             0 /  0 /  0
+met1           2528291       1297640           51.32%             0 /  0 /  0
+met2           2547858       1251464           49.12%             0 /  0 /  0
+met3           1768751         93807            5.30%             0 /  0 /  0
+met4            867916        127973           14.74%             0 /  0 /  0
+met5            223146             0            0.00%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total          7935962       2770884           34.92%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 19861656 um
+[INFO GRT-0014] Routed nets: 10127
+Setting global connections for newly added cells…
+Writing OpenROAD database to '/openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/routing/18-global_1.odb'…
+Writing layout to '/openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/routing/18-global_1.def'…
+Writing routing guides to '/openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/routing/18-global_1.guide'…

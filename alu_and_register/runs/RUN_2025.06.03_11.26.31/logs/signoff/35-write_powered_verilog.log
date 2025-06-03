@@ -1,0 +1,38 @@
+OpenROAD b16bda7e82721d10566ff7e2b68f1ff0be9f9e38 
+Features included (+) or not (-): +Charts +GPU +GUI +Python
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+define_corners Typical
+read_liberty -corner Typical /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+Using 1e-12 for capacitance...
+Using 1e+03 for resistance...
+Using 1e-09 for time...
+Using 1e+00 for voltage...
+Using 1e-03 for current...
+Using 1e-09 for power...
+Using 1e-06 for distance...
+[INFO ODB-0227] LEF file: /openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/merged.nom.lef, created 13 layers, 25 vias, 441 library cells
+[INFO ODB-0127] Reading DEF file: /openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/signoff/34-TopModule.p.def
+[INFO ODB-0128] Design: TopModule
+[INFO ODB-0094] 		Created 100000 Insts
+[INFO ODB-0094] 		Created 200000 Insts
+[INFO ODB-0094] 		Created 300000 Insts
+[INFO ODB-0094] 		Created 400000 Insts
+[INFO ODB-0094] 		Created 500000 Insts
+[INFO ODB-0094] 		Created 600000 Insts
+[INFO ODB-0094] 		Created 700000 Insts
+[INFO ODB-0094] 		Created 800000 Insts
+[INFO ODB-0094] 		Created 900000 Insts
+[INFO ODB-0094] 		Created 1000000 Insts
+[INFO ODB-0094] 		Created 1100000 Insts
+[INFO ODB-0094] 		Created 1200000 Insts
+[INFO ODB-0094] 		Created 1300000 Insts
+[INFO ODB-0130]     Created 149 pins.
+[INFO ODB-0131]     Created 1395496 components and 5392782 component-terminals.
+[INFO ODB-0132]     Created 2 special nets and 5236384 connections.
+[INFO ODB-0133]     Created 10127 nets and 156302 connections.
+[INFO ODB-0134] Finished DEF file: /openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/signoff/34-TopModule.p.def
+Reading design constraints file at '/openlane/designs/alu_and_register/src/TopModule.sdc'…
+[WARNING] Did not save OpenROAD database!
+Writing netlist to '/openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/signoff/34-TopModule.nl.v'…
+Writing powered netlist to '/openlane/designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/tmp/signoff/34-TopModule.pnl.v'…

@@ -5,3 +5,4 @@
 *.pnl.v
 **/results/signoff/
 **/results/final/verilog/
+**/results/final/gds/TopModule.gds
