@@ -1,5 +1,9 @@
 This repository is created for CSE-224 Spring 2025 project. Since OpenLane itself is also a GitHub repository, I created this repository inside my local /OpenLane/designs. 
 
+!Important Note
+
+Since the project files became too large after the third project, only the .gds file is included in the runs folder due to GitHub limitations. The actual .gds file is stored on Google Drive, and its download link is provided in both **/final/gds/Gds Link.txt and the README.
+
 Folder Structure:
 
 OpenLane
@@ -60,15 +64,12 @@ Fourth Project (Alu and Register File)
 
 The TopModule.v file has been added to the project (it was not normally in the lab). In addition, the die_area parameter had to be significantly increased, and its value is now ‘0 0 3500 3500’. 
 
-Since creating a design in OpenLane took a lot of time, I reduced the number of registers from 32 to 4. All other design logic remains the same.
-
 ! Important Note
 
-I started to use Git LFS since files are started to become very large. So if you want to see codes, results, or any other large file. , you should press the view raw button and download file itself.
-
-!! New Update
-
-Since I exceeded GitLFS max data storage amount, GitLFS is disabled for this repository. So some files in "runs" folder may not be visible in GitHub. I will probably add "runs" folder in GitHub ignore in project 5.
+.gds file google drive link -> https://drive.google.com/file/d/15rvHXURM8V8CRaW5MsSX-tbCyPRiNov1/view?usp=sharing
 
 KLayout Screenshot:
-![Project4 ss](https://github.com/user-attachments/assets/e80b24b1-d46d-4595-be7b-1821c99ce037)
+![Project4 ss](https://github.com/user-attachments/assets/fd67292a-3ef0-44c9-a104-1a1dbdb95529)
+
+----------------------------------------------------------------------------------------------------
+
