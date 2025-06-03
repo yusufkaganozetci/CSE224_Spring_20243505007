@@ -2,3 +2,6 @@
 *.mag
 *.odb
 *.ext
+*.pnl.v
+**/results/signoff/
+**/results/final/verilog/
