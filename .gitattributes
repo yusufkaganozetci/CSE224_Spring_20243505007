@@ -1,5 +1,0 @@
-alu_and_register/**/*.def filter=lfs diff=lfs merge=lfs -text
-alu_and_register/**/*.gds filter=lfs diff=lfs merge=lfs -text
-alu_and_register/**/*.mag filter=lfs diff=lfs merge=lfs -text
-alu_and_register/**/*.ext filter=lfs diff=lfs merge=lfs -text
-alu_and_register/**/*.odb filter=lfs diff=lfs merge=lfs -text
