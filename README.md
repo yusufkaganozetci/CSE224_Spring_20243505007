@@ -73,3 +73,16 @@ KLayout Screenshot:
 
 ----------------------------------------------------------------------------------------------------
 
+Fifth Project (Semi CPU)
+
+This time I managed to upload gds file directly to the GitHub itself. Also clock period is increased to 15 due to some error messages about timing. It is working as expected now.
+
+KLayout Screenshots:
+
+Depth 2:
+![Project5 Depth2 ss](https://github.com/user-attachments/assets/3a30d860-de2e-43f0-99c3-ecf1dce230d4)
+
+Depth 1:
+![Project5 Depth1 ss](https://github.com/user-attachments/assets/a323f972-b963-4332-9fea-7a1e5d11f2d5)
+
+----------------------------------------------------------------------------------------------------
