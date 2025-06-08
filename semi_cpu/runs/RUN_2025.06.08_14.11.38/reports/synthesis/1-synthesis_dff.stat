@@ -1,0 +1,26 @@
+
+61. Printing statistics.
+
+=== SemiCPU ===
+
+   Number of wires:               2443
+   Number of wire bits:           3624
+   Number of public wires:          41
+   Number of public wire bits:    1124
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               3039
+     $_ANDNOT_                     188
+     $_AND_                         40
+     $_MUX_                       1257
+     $_NAND_                        36
+     $_NOR_                         42
+     $_NOT_                        569
+     $_ORNOT_                       39
+     $_OR_                         210
+     $_XNOR_                        10
+     $_XOR_                         84
+     sky130_fd_sc_hd__dfrtp_2       30
+     sky130_fd_sc_hd__dfxtp_2      534
+
