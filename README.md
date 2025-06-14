@@ -83,3 +83,15 @@ Depth 1:
 ![Project5 Depth1 ss](https://github.com/user-attachments/assets/a323f972-b963-4332-9fea-7a1e5d11f2d5)
 
 ----------------------------------------------------------------------------------------------------
+
+Sixth Project (Full CPU)
+
+Same config file in fifth project is applied here as well.
+
+Depth 2:
+![Project6 Depth2](https://github.com/user-attachments/assets/846bbde8-c5f5-40d0-abab-bfb0090af566)
+
+Depth 1:
+![Project6 Depth1](https://github.com/user-attachments/assets/5be67df5-bcd1-4ffd-8a02-2eb9dff639c0)
+
+----------------------------------------------------------------------------------------------------
