@@ -1,9 +1,5 @@
 This repository is created for CSE-224 Spring 2025 project. Since OpenLane itself is also a GitHub repository, I created this repository inside my local /OpenLane/designs. 
 
-!Important Note
-
-Since the project files became too large after the third project, only the .gds file is included in the runs folder due to GitHub limitations. The actual .gds file is stored on Google Drive, and its download link is provided in both **/final/gds/Gds Link.txt and the README.
-
 Folder Structure:
 
 OpenLane
@@ -62,20 +58,21 @@ Depth 1:
 
 Fourth Project (Alu and Register File)
 
-The TopModule.v file has been added to the project (it was not normally in the lab). In addition, the die_area parameter had to be significantly increased, and its value is now ‘0 0 3500 3500’. 
+The TopModule.v file has been added to the project (it was not normally in the lab). In addition, the DIE_AREA, PL_TARGET_DENSITY, FP_CORE_UTIL parameters had to be changed due to placement issues. Moreover, "PL_RANDOM_GLB_PLACEMENT = false" is set in order to achieve reliable placement.
 
-! Important Note
+KLayout Screenshots:
 
-.gds file google drive link -> https://drive.google.com/file/d/15rvHXURM8V8CRaW5MsSX-tbCyPRiNov1/view?usp=sharing
+Depth 2:
+![Project4 Depth2](https://github.com/user-attachments/assets/82a83ed0-eae0-43c8-82f5-dcbeb5c6a9ba)
 
-KLayout Screenshot:
-![Project4 ss](https://github.com/user-attachments/assets/fd67292a-3ef0-44c9-a104-1a1dbdb95529)
+Depth 1:
+![Project4 Depth1](https://github.com/user-attachments/assets/a4dd3de6-20ba-4827-a5d8-5c87f33609de)
 
 ----------------------------------------------------------------------------------------------------
 
 Fifth Project (Semi CPU)
 
-This time I managed to upload gds file directly to the GitHub itself. Also clock period is increased to 15 due to some error messages about timing. It is working as expected now.
+Clock period is increased to 15 due to some error messages about timing. It is working as expected now.
 
 KLayout Screenshots:
 
