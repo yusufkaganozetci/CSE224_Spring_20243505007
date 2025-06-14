@@ -36,7 +36,7 @@ I had to modify the die_area parameter in the config.json file from "0 0 34.5 57
 The original die area was sufficient for the first project (two's complement), but it was too small to accommodate the increased cell count and complexity of the second project (ALU). Increasing the die area resolved the placement failure in OpenLane.
 
 KLayout Screenshot:
-![Project2_ss](https://github.com/user-attachments/assets/771eb366-d2ec-460c-9284-cf7bb95f65b2)
+![Project2 ss](https://github.com/user-attachments/assets/94011282-22d4-4080-be6d-fecc23f5a95d)
 
 ----------------------------------------------------------------------------------------------------
 
