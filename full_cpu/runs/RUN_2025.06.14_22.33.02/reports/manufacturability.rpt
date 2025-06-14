@@ -1,0 +1,19 @@
+Design Name: CPU_TOP
+Run Directory: /openlane/designs/full_cpu/runs/RUN_2025.06.14_22.33.02
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/full_cpu/runs/RUN_2025.06.14_22.33.02/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/full_cpu/runs/RUN_2025.06.14_22.33.02/logs/signoff/38-CPU_TOP.lef.lvs.log
+Number of nets: 3183                       |Number of nets: 3183                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/full_cpu/runs/RUN_2025.06.14_22.33.02/logs/signoff/41-arc.log
+Pin violations: 2
+Net violations: 1

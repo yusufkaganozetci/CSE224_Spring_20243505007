@@ -1,0 +1,14 @@
+[WARNING GRT-0026] Missing route to pin _2594_/D.
+[WARNING GRT-0026] Missing route to pin _2594_/A.
+[WARNING GRT-0026] Missing route to pin _2652_/Y.
+[WARNING GRT-0026] Missing route to pin _2925_/B1.
+[WARNING GRT-0026] Missing route to pin _2702_/X.
+[WARNING GRT-0026] Missing route to pin _2925_/A2.
+[WARNING GRT-0026] Missing route to pin _2951_/B.
+[WARNING GRT-0026] Missing route to pin _2951_/X.
+[WARNING GRT-0026] Missing route to pin _4699_/A2.
+[WARNING GRT-0026] Missing route to pin _4699_/A1.
+[WARNING GRT-0026] Missing route to pin _4699_/B1.
+Warning: There are 2 input ports missing set_input_delay.
+Warning: There are 12 unconstrained endpoints.
+[WARNING] Did not save OpenROAD database!

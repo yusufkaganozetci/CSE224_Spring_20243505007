@@ -1,0 +1,29 @@
+
+57. Printing statistics.
+
+=== CPU_TOP ===
+
+   Number of wires:               5067
+   Number of wire bits:           6190
+   Number of public wires:          43
+   Number of public wire bits:    1126
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               6164
+     $_ANDNOT_                     510
+     $_AND_                         42
+     $_DFFE_PN0P_                   31
+     $_DFFE_PN_                      2
+     $_DFFE_PP_                   1024
+     $_DFF_PN0_                      1
+     $_MUX_                       2417
+     $_NAND_                        64
+     $_NOR_                        148
+     $_NOT_                       1095
+     $_ORNOT_                       73
+     $_OR_                         494
+     $_SDFF_PN0_                    20
+     $_XNOR_                        48
+     $_XOR_                        195
+

@@ -1,0 +1,51 @@
+%Warning-EOFNEWLINE: /openlane/designs/full_cpu/src/ALU.v:20:10: Missing newline at end of file (POSIX 3.206).
+                                                               : ... Suggest add newline.
+   20 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.018
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-EOFNEWLINE: /openlane/designs/full_cpu/src/InstructionMemory.v:69:10: Missing newline at end of file (POSIX 3.206).
+                                                                             : ... Suggest add newline.
+   69 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/full_cpu/src/ProgramCounter.v:23:10: Missing newline at end of file (POSIX 3.206).
+                                                                          : ... Suggest add newline.
+   23 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/full_cpu/src/EdgeDetector.v:17:10: Missing newline at end of file (POSIX 3.206).
+                                                                        : ... Suggest add newline.
+   17 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/full_cpu/src/SevenSegDisplay.v:68:10: Missing newline at end of file (POSIX 3.206).
+                                                                           : ... Suggest add newline.
+   68 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/full_cpu/src/InstructionDecoder.v:95:10: Missing newline at end of file (POSIX 3.206).
+                                                                              : ... Suggest add newline.
+   95 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/full_cpu/src/RegisterFile.v:29:10: Missing newline at end of file (POSIX 3.206).
+                                                                        : ... Suggest add newline.
+   29 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/full_cpu/src/FullCPU.v:94:10: Missing newline at end of file (POSIX 3.206).
+                                                                   : ... Suggest add newline.
+   94 | endmodule
+      |          ^
+%Warning-UNUSEDSIGNAL: /openlane/designs/full_cpu/src/CPU_TOP.v:12:17: Signal is not used: 'cpu_result'
+                                                                     : ... note: In instance 'CPU_TOP'
+   12 |     wire [31:0] cpu_result;
+      |                 ^~~~~~~~~~
+%Warning-UNUSEDSIGNAL: /openlane/designs/full_cpu/src/SevenSegDisplay.v:3:23: Bits of signal are not used: 'data'[31:16]
+                                                                            : ... note: In instance 'CPU_TOP.cpu_inst.display_inst'
+    3 |     input wire [31:0] data,    
+      |                       ^~~~
+%Warning-CASEINCOMPLETE: /openlane/designs/full_cpu/src/InstructionDecoder.v:48:17: Case values incompletely covered (example pattern 0x2)
+   48 |                 case (funct3)
+      |                 ^~~~
+%Warning-CASEINCOMPLETE: /openlane/designs/full_cpu/src/InstructionDecoder.v:61:17: Case values incompletely covered (example pattern 0x1)
+   61 |                 case ({funct7, funct3})
+      |                 ^~~~
+%Warning-CASEINCOMPLETE: /openlane/designs/full_cpu/src/InstructionDecoder.v:68:17: Case values incompletely covered (example pattern 0x1)
+   68 |                 case (funct3)
+      |                 ^~~~
