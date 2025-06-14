@@ -1,0 +1,706 @@
+
+Magic 8.3 revision 483 - Compiled on Sun Jun  2 18:57:41 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.466-0-gbdc9412
+Reading LEF data from file /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 78 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 79 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 112 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 114 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 115 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 121 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 122 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 123 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 156 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 164 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 165 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 167 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 206 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 207 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 209 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 248 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 249 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 251 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 290 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 291 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 797 lines.
+Reading DEF data from file /openlane/designs/alu_and_register/runs/RUN_2025.06.14_21.48.27/results/routing/TopModule.def.
+This action cannot be undone.
+  Processed 4 vias total.
+Cell sky130_fd_sc_hd__diode_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_ef_sc_hd__decap_12 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__fill_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__fill_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_8 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_3 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__decap_6 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_8 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux4_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a32o_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a32o_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkinv_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_6 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux4_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__mux2_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2o_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2bb2o_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o22a_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2a_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and2_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21o_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_8 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21a_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31oi_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o2bb2a_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and4_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor3_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3b_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21bai_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21bo_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o31a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a31o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or2b_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xor2_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21oi_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3b_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3b_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a221oi_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ba_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a211oi_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o41a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221ai_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor4_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4bb_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21boi_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a311o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a32o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o221ai_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21ai_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or4b_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and2b_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xnor2_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3b_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a41o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o311a_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o32a_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand4_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__xor2_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o21bai_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a22oi_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a21bo_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__o211ai_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__a2111o_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3b_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3b_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__or3_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nor2b_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand3b_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__and3b_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__nand2b_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dfxtp_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkbuf_16 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkinvlp_4 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__bufinv_16 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_6 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_8 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkinvlp_2 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkinv_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__clkinv_8 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__inv_12 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__buf_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+Cell sky130_fd_sc_hd__dlymetal6s2s_1 read from path /home/kagan/.volare/sky130A/libs.ref/sky130_fd_sc_hd/maglef
+  Processed 17035 subcell instances total.
+  Processed 149 pins total.
+  Processed 2 special nets total.
+  Processed 5647 nets total.
+DEF read: Processed 126798 lines.
+Moving label "RD1[0]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[10]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[11]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[13]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[14]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[15]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[16]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[17]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[18]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[19]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[1]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[20]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[21]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[22]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[23]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[24]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[25]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[27]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[28]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[29]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[2]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[30]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[31]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[3]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[4]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[5]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[6]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[8]" from metal2 to via2 in cell TopModule.
+Moving label "RD1[9]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[0]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[10]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[11]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[12]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[13]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[14]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[15]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[16]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[17]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[18]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[19]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[1]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[21]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[22]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[23]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[24]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[26]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[27]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[28]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[29]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[2]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[30]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[31]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[3]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[4]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[5]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[7]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[8]" from metal2 to via2 in cell TopModule.
+Moving label "RD2[9]" from metal2 to via2 in cell TopModule.
+Moving label "_0006_" from metal1 to via1 in cell TopModule.
+Moving label "_0008_" from metal1 to via1 in cell TopModule.
+Moving label "_0037_" from metal1 to via1 in cell TopModule.
+Moving label "_0046_" from metal1 to via1 in cell TopModule.
+Moving label "_0047_" from metal1 to via1 in cell TopModule.
+Moving label "_0066_" from metal1 to via1 in cell TopModule.
+Moving label "_0075_" from metal1 to via1 in cell TopModule.
+Moving label "_0077_" from metal1 to via1 in cell TopModule.
+Moving label "_0085_" from metal1 to via1 in cell TopModule.
+Moving label "_0095_" from metal1 to via1 in cell TopModule.
+Moving label "_0096_" from metal1 to via1 in cell TopModule.
+Moving label "_0099_" from metal1 to viali in cell TopModule.
+Moving label "_0103_" from metal1 to via1 in cell TopModule.
+Moving label "_0104_" from metal1 to via1 in cell TopModule.
+Moving label "_0112_" from metal1 to via1 in cell TopModule.
+Moving label "_0113_" from metal1 to via1 in cell TopModule.
+Moving label "_0116_" from metal1 to via1 in cell TopModule.
+Moving label "_0122_" from metal1 to via1 in cell TopModule.
+Moving label "_0128_" from metal1 to via1 in cell TopModule.
+Moving label "_0131_" from metal1 to via1 in cell TopModule.
+Moving label "_0136_" from metal1 to via1 in cell TopModule.
+Moving label "_0142_" from metal1 to via1 in cell TopModule.
+Moving label "_0145_" from metal1 to via1 in cell TopModule.
+Moving label "_0148_" from metal1 to via1 in cell TopModule.
+Moving label "_0150_" from metal1 to via1 in cell TopModule.
+Moving label "_0155_" from metal1 to via1 in cell TopModule.
+Moving label "_0156_" from metal1 to via1 in cell TopModule.
+Moving label "_0160_" from metal1 to via1 in cell TopModule.
+Moving label "_0165_" from metal1 to via1 in cell TopModule.
+Moving label "_0171_" from metal1 to via1 in cell TopModule.
+Moving label "_0173_" from metal1 to via1 in cell TopModule.
+Moving label "_0178_" from metal1 to via1 in cell TopModule.
+Moving label "_0180_" from metal1 to viali in cell TopModule.
+Moving label "_0192_" from metal1 to via1 in cell TopModule.
+Moving label "_0196_" from metal1 to via1 in cell TopModule.
+Moving label "_0199_" from metal1 to via1 in cell TopModule.
+Moving label "_0212_" from metal1 to via1 in cell TopModule.
+Moving label "_0225_" from metal1 to via1 in cell TopModule.
+Moving label "_0230_" from metal1 to via1 in cell TopModule.
+Moving label "_0233_" from metal1 to via1 in cell TopModule.
+Moving label "_0237_" from metal1 to via1 in cell TopModule.
+Moving label "_0241_" from metal1 to via1 in cell TopModule.
+Moving label "_0242_" from metal1 to via1 in cell TopModule.
+Moving label "_0246_" from metal1 to via1 in cell TopModule.
+Moving label "_0249_" from metal1 to via1 in cell TopModule.
+Moving label "_0251_" from metal1 to via1 in cell TopModule.
+Moving label "_0253_" from metal1 to via1 in cell TopModule.
+Moving label "_0257_" from metal1 to via1 in cell TopModule.
+Moving label "_0258_" from metal1 to via1 in cell TopModule.
+Moving label "_0261_" from metal1 to via1 in cell TopModule.
+Moving label "_0275_" from metal1 to via1 in cell TopModule.
+Moving label "_0277_" from metal1 to via1 in cell TopModule.
+Moving label "_0292_" from metal1 to via1 in cell TopModule.
+Moving label "_0293_" from metal1 to via1 in cell TopModule.
+Moving label "_0294_" from metal1 to via1 in cell TopModule.
+Moving label "_0298_" from metal1 to via1 in cell TopModule.
+Moving label "_0302_" from metal1 to via1 in cell TopModule.
+Moving label "_0307_" from metal1 to via1 in cell TopModule.
+Moving label "_0308_" from metal1 to via1 in cell TopModule.
+Moving label "_0316_" from metal1 to via1 in cell TopModule.
+Moving label "_0322_" from metal1 to via1 in cell TopModule.
+Moving label "_0323_" from metal1 to via1 in cell TopModule.
+Moving label "_0339_" from metal1 to via1 in cell TopModule.
+Moving label "_0349_" from metal1 to via1 in cell TopModule.
+Moving label "_0355_" from metal1 to via1 in cell TopModule.
+Moving label "_0357_" from metal1 to via1 in cell TopModule.
+Moving label "_0370_" from metal1 to via1 in cell TopModule.
+Moving label "_0371_" from metal1 to via1 in cell TopModule.
+Moving label "_0378_" from metal1 to via1 in cell TopModule.
+Moving label "_0383_" from metal1 to via1 in cell TopModule.
+Moving label "_0390_" from metal1 to via1 in cell TopModule.
+Moving label "_0393_" from metal1 to via1 in cell TopModule.
+Moving label "_0394_" from metal1 to via1 in cell TopModule.
+Moving label "_0402_" from metal1 to via1 in cell TopModule.
+Moving label "_0407_" from metal1 to via1 in cell TopModule.
+Moving label "_0415_" from metal1 to via1 in cell TopModule.
+Moving label "_0421_" from metal1 to via1 in cell TopModule.
+Moving label "_0424_" from metal1 to via1 in cell TopModule.
+Moving label "_0425_" from metal1 to via1 in cell TopModule.
+Moving label "_0431_" from metal1 to via1 in cell TopModule.
+Moving label "_0436_" from metal1 to via1 in cell TopModule.
+Moving label "_0449_" from metal1 to via1 in cell TopModule.
+Moving label "_0450_" from metal1 to via1 in cell TopModule.
+Moving label "_0451_" from metal1 to via1 in cell TopModule.
+Moving label "_0456_" from metal1 to via1 in cell TopModule.
+Moving label "_0463_" from metal1 to via1 in cell TopModule.
+Moving label "_0465_" from metal1 to via1 in cell TopModule.
+Moving label "_0468_" from metal1 to via1 in cell TopModule.
+Moving label "_0475_" from metal1 to viali in cell TopModule.
+Moving label "_0476_" from metal1 to via1 in cell TopModule.
+Moving label "_0479_" from metal1 to via1 in cell TopModule.
+Moving label "_0480_" from metal1 to via1 in cell TopModule.
+Moving label "_0496_" from metal1 to via1 in cell TopModule.
+Moving label "_0513_" from metal1 to via1 in cell TopModule.
+Moving label "_0515_" from metal1 to viali in cell TopModule.
+Moving label "_0526_" from metal1 to viali in cell TopModule.
+Moving label "_0530_" from metal1 to via1 in cell TopModule.
+Moving label "_0536_" from metal1 to via1 in cell TopModule.
+Moving label "_0545_" from metal1 to viali in cell TopModule.
+Moving label "_0546_" from metal1 to via1 in cell TopModule.
+Moving label "_0547_" from metal1 to via1 in cell TopModule.
+Moving label "_0554_" from metal1 to via1 in cell TopModule.
+Moving label "_0555_" from metal1 to via1 in cell TopModule.
+Moving label "_0566_" from metal1 to via1 in cell TopModule.
+Moving label "_0577_" from metal1 to via1 in cell TopModule.
+Moving label "_0580_" from metal1 to via1 in cell TopModule.
+Moving label "_0585_" from metal1 to via1 in cell TopModule.
+Moving label "_0591_" from metal1 to via1 in cell TopModule.
+Moving label "_0596_" from metal1 to via1 in cell TopModule.
+Moving label "_0602_" from metal1 to via1 in cell TopModule.
+Moving label "_0603_" from metal1 to via1 in cell TopModule.
+Moving label "_0611_" from metal1 to via1 in cell TopModule.
+Moving label "_0618_" from metal1 to via1 in cell TopModule.
+Moving label "_0624_" from metal1 to via1 in cell TopModule.
+Moving label "_0629_" from metal1 to via1 in cell TopModule.
+Moving label "_0635_" from metal1 to via1 in cell TopModule.
+Moving label "_0637_" from metal1 to via1 in cell TopModule.
+Moving label "_0657_" from metal1 to via1 in cell TopModule.
+Moving label "_0664_" from metal1 to via1 in cell TopModule.
+Moving label "_0666_" from metal1 to via1 in cell TopModule.
+Moving label "_0669_" from metal1 to viali in cell TopModule.
+Moving label "_0674_" from metal1 to via1 in cell TopModule.
+Moving label "_0677_" from metal1 to via1 in cell TopModule.
+Moving label "_0682_" from metal1 to via1 in cell TopModule.
+Moving label "_0686_" from metal1 to via1 in cell TopModule.
+Moving label "_0697_" from metal1 to via1 in cell TopModule.
+Moving label "_0704_" from metal1 to via1 in cell TopModule.
+Moving label "_0705_" from metal1 to via1 in cell TopModule.
+Moving label "_0722_" from metal1 to via1 in cell TopModule.
+Moving label "_0724_" from metal1 to via1 in cell TopModule.
+Moving label "_0729_" from metal1 to via1 in cell TopModule.
+Moving label "_0735_" from metal1 to via1 in cell TopModule.
+Moving label "_0736_" from metal1 to viali in cell TopModule.
+Moving label "_0738_" from metal1 to via1 in cell TopModule.
+Moving label "_0739_" from metal1 to via1 in cell TopModule.
+Moving label "_0745_" from metal1 to via1 in cell TopModule.
+Moving label "_0753_" from metal1 to via1 in cell TopModule.
+Moving label "_0762_" from metal1 to via1 in cell TopModule.
+Moving label "_0771_" from metal1 to via1 in cell TopModule.
+Moving label "_0774_" from metal1 to via1 in cell TopModule.
+Moving label "_0783_" from metal1 to via1 in cell TopModule.
+Moving label "_0785_" from metal1 to via1 in cell TopModule.
+Moving label "_0787_" from metal1 to via1 in cell TopModule.
+Moving label "_0789_" from metal1 to via1 in cell TopModule.
+Moving label "_0790_" from metal1 to via1 in cell TopModule.
+Moving label "_0792_" from metal1 to via1 in cell TopModule.
+Moving label "_0794_" from metal1 to via1 in cell TopModule.
+Moving label "_0796_" from metal1 to via1 in cell TopModule.
+Moving label "_0798_" from metal1 to via1 in cell TopModule.
+Moving label "_0804_" from metal1 to via1 in cell TopModule.
+Moving label "_0818_" from metal1 to via1 in cell TopModule.
+Moving label "_0835_" from metal1 to via1 in cell TopModule.
+Moving label "_0846_" from metal1 to via1 in cell TopModule.
+Moving label "_0854_" from metal1 to via1 in cell TopModule.
+Moving label "_0871_" from metal1 to via1 in cell TopModule.
+Moving label "_0878_" from metal1 to via1 in cell TopModule.
+Moving label "_0880_" from metal1 to via1 in cell TopModule.
+Moving label "_0882_" from metal1 to via1 in cell TopModule.
+Moving label "_0884_" from metal1 to via1 in cell TopModule.
+Moving label "_0899_" from metal1 to via1 in cell TopModule.
+Moving label "_0900_" from metal1 to via1 in cell TopModule.
+Moving label "_0904_" from metal1 to via1 in cell TopModule.
+Moving label "_0905_" from metal1 to via1 in cell TopModule.
+Moving label "_0909_" from metal1 to via1 in cell TopModule.
+Moving label "_0910_" from metal1 to viali in cell TopModule.
+Moving label "_0912_" from metal1 to via1 in cell TopModule.
+Moving label "_0937_" from metal1 to via1 in cell TopModule.
+Moving label "_0938_" from metal1 to via1 in cell TopModule.
+Moving label "_0951_" from metal1 to via1 in cell TopModule.
+Moving label "_0964_" from metal1 to via1 in cell TopModule.
+Moving label "_0967_" from metal1 to via1 in cell TopModule.
+Moving label "_0969_" from metal1 to viali in cell TopModule.
+Moving label "_0980_" from metal1 to via1 in cell TopModule.
+Moving label "_0983_" from metal1 to via1 in cell TopModule.
+Moving label "_0984_" from metal1 to via1 in cell TopModule.
+Moving label "_1011_" from metal1 to via1 in cell TopModule.
+Moving label "_1022_" from metal1 to via1 in cell TopModule.
+Moving label "_1078_" from metal2 to via2 in cell TopModule.
+Moving label "_1123_" from metal2 to via2 in cell TopModule.
+Moving label "_1132_" from metal1 to viali in cell TopModule.
+Moving label "_1145_" from metal2 to via2 in cell TopModule.
+Moving label "_1151_" from metal1 to via1 in cell TopModule.
+Moving label "_1175_" from metal1 to via1 in cell TopModule.
+Moving label "_1180_" from metal2 to via2 in cell TopModule.
+Moving label "_1190_" from metal2 to via2 in cell TopModule.
+Moving label "_1224_" from metal1 to via1 in cell TopModule.
+Moving label "_1270_" from metal1 to via1 in cell TopModule.
+Moving label "_1281_" from metal2 to via2 in cell TopModule.
+Moving label "_1302_" from metal2 to via2 in cell TopModule.
+Moving label "_1378_" from metal1 to via1 in cell TopModule.
+Moving label "_1404_" from metal2 to via1 in cell TopModule.
+Moving label "_1424_" from metal1 to via1 in cell TopModule.
+Moving label "_1465_" from metal1 to via1 in cell TopModule.
+Moving label "_1476_" from metal2 to via2 in cell TopModule.
+Moving label "_1569_" from metal2 to via2 in cell TopModule.
+Moving label "_1628_" from metal2 to via2 in cell TopModule.
+Moving label "_1637_" from metal2 to via2 in cell TopModule.
+Moving label "_1702_" from metal1 to via1 in cell TopModule.
+Moving label "_1724_" from metal2 to via2 in cell TopModule.
+Moving label "_1754_" from metal1 to via1 in cell TopModule.
+Moving label "_1766_" from metal2 to via1 in cell TopModule.
+Moving label "_1769_" from metal2 to via2 in cell TopModule.
+Moving label "_1810_" from metal3 to via3 in cell TopModule.
+Moving label "_1821_" from metal1 to via1 in cell TopModule.
+Moving label "_1826_" from metal3 to via3 in cell TopModule.
+Moving label "_1845_" from metal1 to via1 in cell TopModule.
+Moving label "_1857_" from metal2 to via1 in cell TopModule.
+Moving label "_1866_" from metal1 to viali in cell TopModule.
+Moving label "_1888_" from metal2 to via2 in cell TopModule.
+Moving label "_1900_" from metal1 to via1 in cell TopModule.
+Moving label "_1934_" from metal1 to via1 in cell TopModule.
+Moving label "_1982_" from metal3 to via3 in cell TopModule.
+Moving label "_2008_" from metal2 to via2 in cell TopModule.
+Moving label "_2034_" from metal2 to via1 in cell TopModule.
+Moving label "_2035_" from metal1 to via1 in cell TopModule.
+Moving label "_2046_" from metal2 to via2 in cell TopModule.
+Moving label "_2071_" from metal2 to via2 in cell TopModule.
+Moving label "_2114_" from metal1 to viali in cell TopModule.
+Moving label "_2117_" from metal1 to viali in cell TopModule.
+Moving label "_2119_" from metal2 to via1 in cell TopModule.
+Moving label "_2199_" from metal2 to via1 in cell TopModule.
+Moving label "_2238_" from metal2 to via2 in cell TopModule.
+Moving label "_2322_" from metal3 to via3 in cell TopModule.
+Moving label "_2364_" from metal1 to via1 in cell TopModule.
+Moving label "_2388_" from metal2 to via2 in cell TopModule.
+Moving label "_2412_" from metal1 to viali in cell TopModule.
+Moving label "_2428_" from metal2 to via2 in cell TopModule.
+Moving label "_2449_" from metal1 to viali in cell TopModule.
+Moving label "_2450_" from metal1 to viali in cell TopModule.
+Moving label "_2468_" from metal2 to via2 in cell TopModule.
+Moving label "_2544_" from metal1 to via1 in cell TopModule.
+Moving label "_2549_" from metal2 to via2 in cell TopModule.
+Moving label "_2582_" from metal2 to via1 in cell TopModule.
+Moving label "_2604_" from metal2 to via2 in cell TopModule.
+Moving label "_2659_" from metal1 to viali in cell TopModule.
+Moving label "_2676_" from metal2 to via1 in cell TopModule.
+Moving label "_2683_" from metal2 to via2 in cell TopModule.
+Moving label "_2772_" from metal1 to viali in cell TopModule.
+Moving label "_2781_" from metal1 to via1 in cell TopModule.
+Moving label "_2794_" from metal2 to via2 in cell TopModule.
+Moving label "_2815_" from metal1 to viali in cell TopModule.
+Moving label "_2817_" from metal3 to via3 in cell TopModule.
+Moving label "_2939_" from metal1 to via1 in cell TopModule.
+Moving label "_2997_" from metal1 to via1 in cell TopModule.
+Moving label "_3093_" from metal2 to via2 in cell TopModule.
+Moving label "_3324_" from metal1 to via1 in cell TopModule.
+Moving label "_3408_" from metal2 to via2 in cell TopModule.
+Moving label "_3516_" from metal2 to via2 in cell TopModule.
+Moving label "_3672_" from metal2 to via2 in cell TopModule.
+Moving label "_3720_" from metal1 to viali in cell TopModule.
+Moving label "_3864_" from metal2 to via2 in cell TopModule.
+Moving label "_4106_" from metal2 to via2 in cell TopModule.
+Moving label "_4117_" from metal2 to via2 in cell TopModule.
+Moving label "clknet_0_CLK" from metal2 to via2 in cell TopModule.
+Moving label "clknet_3_0__leaf_CLK" from metal2 to via2 in cell TopModule.
+Moving label "net12" from metal3 to via3 in cell TopModule.
+Moving label "net121" from metal2 to via2 in cell TopModule.
+Moving label "net13" from metal2 to via2 in cell TopModule.
+Moving label "net144" from metal3 to via3 in cell TopModule.
+Moving label "net26" from metal2 to via2 in cell TopModule.
+Moving label "net36" from metal2 to via2 in cell TopModule.
+Moving label "net45" from metal2 to via2 in cell TopModule.
+Moving label "net46" from metal2 to via2 in cell TopModule.
+Moving label "net66" from metal2 to via2 in cell TopModule.
+Moving label "rf.registers\[0\]\[4\]" from metal2 to via1 in cell TopModule.
+Moving label "rf.registers\[10\]\[18\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[10\]\[19\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[10\]\[21\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[10\]\[7\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[10\]\[8\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[10\]\[9\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[11\]\[28\]" from metal2 to via1 in cell TopModule.
+Moving label "rf.registers\[11\]\[6\]" from metal2 to via1 in cell TopModule.
+Moving label "rf.registers\[14\]\[15\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[14\]\[1\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[14\]\[27\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[14\]\[3\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[15\]\[6\]" from metal2 to via1 in cell TopModule.
+Moving label "rf.registers\[18\]\[16\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[18\]\[18\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[18\]\[24\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[18\]\[31\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[19\]\[29\]" from metal2 to via2 in cell TopModule.
+Moving label "rf.registers\[22\]\[12\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[14\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[15\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[17\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[21\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[22\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[23\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[2\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[4\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[5\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[22\]\[6\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[23\]\[12\]" from metal2 to via1 in cell TopModule.
+Moving label "rf.registers\[23\]\[21\]" from metal2 to via1 in cell TopModule.
+Moving label "rf.registers\[23\]\[9\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[24\]\[21\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[24\]\[28\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[11\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[15\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[1\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[22\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[26\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[28\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[29\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[2\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[26\]\[31\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[27\]\[21\]" from metal2 to via2 in cell TopModule.
+Moving label "rf.registers\[27\]\[2\]" from metal2 to via2 in cell TopModule.
+Moving label "rf.registers\[28\]\[30\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[2\]\[10\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[2\]\[11\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[2\]\[15\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[2\]\[26\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[2\]\[28\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[2\]\[31\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[30\]\[10\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[30\]\[18\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[30\]\[19\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[30\]\[1\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[30\]\[25\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[30\]\[27\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[30\]\[7\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[31\]\[16\]" from metal2 to via1 in cell TopModule.
+Moving label "rf.registers\[4\]\[12\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[6\]\[13\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[6\]\[14\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[6\]\[15\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[6\]\[16\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[6\]\[18\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[6\]\[1\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[6\]\[24\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[6\]\[5\]" from metal1 to via1 in cell TopModule.
+Moving label "rf.registers\[8\]\[23\]" from metal1 to viali in cell TopModule.
+Moving label "rf.registers\[9\]\[28\]" from metal1 to via1 in cell TopModule.
+Processing TopModule
+Extracting sky130_fd_sc_hd__buf_1 into sky130_fd_sc_hd__buf_1.ext:
+Extracting sky130_fd_sc_hd__decap_3 into sky130_fd_sc_hd__decap_3.ext:
+Extracting sky130_fd_sc_hd__fill_2 into sky130_fd_sc_hd__fill_2.ext:
+Extracting sky130_fd_sc_hd__fill_1 into sky130_fd_sc_hd__fill_1.ext:
+Extracting sky130_fd_sc_hd__diode_2 into sky130_fd_sc_hd__diode_2.ext:
+Extracting sky130_fd_sc_hd__decap_4 into sky130_fd_sc_hd__decap_4.ext:
+Extracting sky130_ef_sc_hd__decap_12 into sky130_ef_sc_hd__decap_12.ext:
+Extracting sky130_fd_sc_hd__tapvpwrvgnd_1 into sky130_fd_sc_hd__tapvpwrvgnd_1.ext:
+Extracting sky130_fd_sc_hd__decap_6 into sky130_fd_sc_hd__decap_6.ext:
+Extracting sky130_fd_sc_hd__decap_8 into sky130_fd_sc_hd__decap_8.ext:
+Extracting sky130_fd_sc_hd__clkbuf_1 into sky130_fd_sc_hd__clkbuf_1.ext:
+Extracting sky130_fd_sc_hd__buf_4 into sky130_fd_sc_hd__buf_4.ext:
+Extracting sky130_fd_sc_hd__o21ai_1 into sky130_fd_sc_hd__o21ai_1.ext:
+Extracting sky130_fd_sc_hd__o21a_1 into sky130_fd_sc_hd__o21a_1.ext:
+Extracting sky130_fd_sc_hd__o221a_1 into sky130_fd_sc_hd__o221a_1.ext:
+Extracting sky130_fd_sc_hd__buf_2 into sky130_fd_sc_hd__buf_2.ext:
+Extracting sky130_fd_sc_hd__clkinv_4 into sky130_fd_sc_hd__clkinv_4.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_1 into sky130_fd_sc_hd__o2bb2a_1.ext:
+Extracting sky130_fd_sc_hd__nor2_1 into sky130_fd_sc_hd__nor2_1.ext:
+Extracting sky130_fd_sc_hd__a311o_1 into sky130_fd_sc_hd__a311o_1.ext:
+Extracting sky130_fd_sc_hd__o221ai_4 into sky130_fd_sc_hd__o221ai_4.ext:
+Extracting sky130_fd_sc_hd__o32a_2 into sky130_fd_sc_hd__o32a_2.ext:
+Extracting sky130_fd_sc_hd__o32a_1 into sky130_fd_sc_hd__o32a_1.ext:
+Extracting sky130_fd_sc_hd__a32o_1 into sky130_fd_sc_hd__a32o_1.ext:
+Extracting sky130_fd_sc_hd__a21oi_2 into sky130_fd_sc_hd__a21oi_2.ext:
+Extracting sky130_fd_sc_hd__o22a_1 into sky130_fd_sc_hd__o22a_1.ext:
+Extracting sky130_fd_sc_hd__nand2_1 into sky130_fd_sc_hd__nand2_1.ext:
+Extracting sky130_fd_sc_hd__or2_1 into sky130_fd_sc_hd__or2_1.ext:
+Extracting sky130_fd_sc_hd__inv_2 into sky130_fd_sc_hd__inv_2.ext:
+Extracting sky130_fd_sc_hd__mux2_1 into sky130_fd_sc_hd__mux2_1.ext:
+Extracting sky130_fd_sc_hd__and3_1 into sky130_fd_sc_hd__and3_1.ext:
+Extracting sky130_fd_sc_hd__or2b_1 into sky130_fd_sc_hd__or2b_1.ext:
+Extracting sky130_fd_sc_hd__o211a_1 into sky130_fd_sc_hd__o211a_1.ext:
+Extracting sky130_fd_sc_hd__nand2_4 into sky130_fd_sc_hd__nand2_4.ext:
+Extracting sky130_fd_sc_hd__nand3_1 into sky130_fd_sc_hd__nand3_1.ext:
+Extracting sky130_fd_sc_hd__a22o_1 into sky130_fd_sc_hd__a22o_1.ext:
+Extracting sky130_fd_sc_hd__a21oi_1 into sky130_fd_sc_hd__a21oi_1.ext:
+Extracting sky130_fd_sc_hd__a31o_1 into sky130_fd_sc_hd__a31o_1.ext:
+Extracting sky130_fd_sc_hd__a211o_1 into sky130_fd_sc_hd__a211o_1.ext:
+Extracting sky130_fd_sc_hd__a221o_1 into sky130_fd_sc_hd__a221o_1.ext:
+Extracting sky130_fd_sc_hd__or2_4 into sky130_fd_sc_hd__or2_4.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_1 into sky130_fd_sc_hd__a2bb2o_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_4 into sky130_fd_sc_hd__clkbuf_4.ext:
+Extracting sky130_fd_sc_hd__and2b_1 into sky130_fd_sc_hd__and2b_1.ext:
+Extracting sky130_fd_sc_hd__or2_2 into sky130_fd_sc_hd__or2_2.ext:
+Extracting sky130_fd_sc_hd__mux2_2 into sky130_fd_sc_hd__mux2_2.ext:
+Extracting sky130_fd_sc_hd__and2_1 into sky130_fd_sc_hd__and2_1.ext:
+Extracting sky130_fd_sc_hd__nand2_2 into sky130_fd_sc_hd__nand2_2.ext:
+Extracting sky130_fd_sc_hd__a22oi_4 into sky130_fd_sc_hd__a22oi_4.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_2 into sky130_fd_sc_hd__o2bb2a_2.ext:
+Extracting sky130_fd_sc_hd__o221ai_1 into sky130_fd_sc_hd__o221ai_1.ext:
+Extracting sky130_fd_sc_hd__a21o_1 into sky130_fd_sc_hd__a21o_1.ext:
+Extracting sky130_fd_sc_hd__or3_2 into sky130_fd_sc_hd__or3_2.ext:
+Extracting sky130_fd_sc_hd__o31a_1 into sky130_fd_sc_hd__o31a_1.ext:
+Extracting sky130_fd_sc_hd__nor2_4 into sky130_fd_sc_hd__nor2_4.ext:
+Extracting sky130_fd_sc_hd__o21bai_2 into sky130_fd_sc_hd__o21bai_2.ext:
+Extracting sky130_fd_sc_hd__dfxtp_1 into sky130_fd_sc_hd__dfxtp_1.ext:
+Extracting sky130_fd_sc_hd__or4_1 into sky130_fd_sc_hd__or4_1.ext:
+Extracting sky130_fd_sc_hd__o211ai_4 into sky130_fd_sc_hd__o211ai_4.ext:
+Extracting sky130_fd_sc_hd__or3_1 into sky130_fd_sc_hd__or3_1.ext:
+Extracting sky130_fd_sc_hd__clkinv_1 into sky130_fd_sc_hd__clkinv_1.ext:
+Extracting sky130_fd_sc_hd__a21bo_1 into sky130_fd_sc_hd__a21bo_1.ext:
+Extracting sky130_fd_sc_hd__inv_6 into sky130_fd_sc_hd__inv_6.ext:
+Extracting sky130_fd_sc_hd__mux4_1 into sky130_fd_sc_hd__mux4_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_8 into sky130_fd_sc_hd__clkbuf_8.ext:
+Extracting sky130_fd_sc_hd__or3b_1 into sky130_fd_sc_hd__or3b_1.ext:
+Extracting sky130_fd_sc_hd__a21bo_2 into sky130_fd_sc_hd__a21bo_2.ext:
+Extracting sky130_fd_sc_hd__o21ai_2 into sky130_fd_sc_hd__o21ai_2.ext:
+Extracting sky130_fd_sc_hd__a2111o_1 into sky130_fd_sc_hd__a2111o_1.ext:
+Extracting sky130_fd_sc_hd__clkbuf_2 into sky130_fd_sc_hd__clkbuf_2.ext:
+Extracting sky130_fd_sc_hd__o21ba_1 into sky130_fd_sc_hd__o21ba_1.ext:
+Extracting sky130_fd_sc_hd__o21ai_4 into sky130_fd_sc_hd__o21ai_4.ext:
+Extracting sky130_fd_sc_hd__a31oi_4 into sky130_fd_sc_hd__a31oi_4.ext:
+Extracting sky130_fd_sc_hd__o2bb2a_4 into sky130_fd_sc_hd__o2bb2a_4.ext:
+Extracting sky130_fd_sc_hd__xnor2_1 into sky130_fd_sc_hd__xnor2_1.ext:
+Extracting sky130_fd_sc_hd__a21boi_1 into sky130_fd_sc_hd__a21boi_1.ext:
+Extracting sky130_fd_sc_hd__nor2_2 into sky130_fd_sc_hd__nor2_2.ext:
+Extracting sky130_fd_sc_hd__bufinv_16 into sky130_fd_sc_hd__bufinv_16.ext:
+Extracting sky130_fd_sc_hd__o21bai_1 into sky130_fd_sc_hd__o21bai_1.ext:
+Extracting sky130_fd_sc_hd__and3b_1 into sky130_fd_sc_hd__and3b_1.ext:
+Extracting sky130_fd_sc_hd__mux4_2 into sky130_fd_sc_hd__mux4_2.ext:
+Extracting sky130_fd_sc_hd__a21oi_4 into sky130_fd_sc_hd__a21oi_4.ext:
+Extracting sky130_fd_sc_hd__clkinvlp_4 into sky130_fd_sc_hd__clkinvlp_4.ext:
+Extracting sky130_fd_sc_hd__nor3_1 into sky130_fd_sc_hd__nor3_1.ext:
+Extracting sky130_fd_sc_hd__xnor2_2 into sky130_fd_sc_hd__xnor2_2.ext:
+Extracting sky130_fd_sc_hd__o211ai_2 into sky130_fd_sc_hd__o211ai_2.ext:
+Extracting sky130_fd_sc_hd__a21o_2 into sky130_fd_sc_hd__a21o_2.ext:
+Extracting sky130_fd_sc_hd__buf_6 into sky130_fd_sc_hd__buf_6.ext:
+Extracting sky130_fd_sc_hd__o311a_1 into sky130_fd_sc_hd__o311a_1.ext:
+Extracting sky130_fd_sc_hd__inv_8 into sky130_fd_sc_hd__inv_8.ext:
+Extracting sky130_fd_sc_hd__clkbuf_16 into sky130_fd_sc_hd__clkbuf_16.ext:
+Extracting sky130_fd_sc_hd__xor2_2 into sky130_fd_sc_hd__xor2_2.ext:
+Extracting sky130_fd_sc_hd__nand3b_1 into sky130_fd_sc_hd__nand3b_1.ext:
+Extracting sky130_fd_sc_hd__or4bb_1 into sky130_fd_sc_hd__or4bb_1.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_2 into sky130_fd_sc_hd__a2bb2o_2.ext:
+Extracting sky130_fd_sc_hd__o211ai_1 into sky130_fd_sc_hd__o211ai_1.ext:
+Extracting sky130_fd_sc_hd__or4b_1 into sky130_fd_sc_hd__or4b_1.ext:
+Extracting sky130_fd_sc_hd__and4_1 into sky130_fd_sc_hd__and4_1.ext:
+Extracting sky130_fd_sc_hd__xor2_1 into sky130_fd_sc_hd__xor2_1.ext:
+Extracting sky130_fd_sc_hd__clkinvlp_2 into sky130_fd_sc_hd__clkinvlp_2.ext:
+Extracting sky130_fd_sc_hd__a211oi_1 into sky130_fd_sc_hd__a211oi_1.ext:
+Extracting sky130_fd_sc_hd__a221oi_2 into sky130_fd_sc_hd__a221oi_2.ext:
+Extracting sky130_fd_sc_hd__dlymetal6s2s_1 into sky130_fd_sc_hd__dlymetal6s2s_1.ext:
+Extracting sky130_fd_sc_hd__o22a_2 into sky130_fd_sc_hd__o22a_2.ext:
+Extracting sky130_fd_sc_hd__a2bb2o_4 into sky130_fd_sc_hd__a2bb2o_4.ext:
+Extracting sky130_fd_sc_hd__nand3b_2 into sky130_fd_sc_hd__nand3b_2.ext:
+Extracting sky130_fd_sc_hd__o41a_1 into sky130_fd_sc_hd__o41a_1.ext:
+Extracting sky130_fd_sc_hd__a41o_1 into sky130_fd_sc_hd__a41o_1.ext:
+Extracting sky130_fd_sc_hd__nor4_1 into sky130_fd_sc_hd__nor4_1.ext:
+Extracting sky130_fd_sc_hd__a32o_2 into sky130_fd_sc_hd__a32o_2.ext:
+Extracting sky130_fd_sc_hd__nand4_2 into sky130_fd_sc_hd__nand4_2.ext:
+Extracting sky130_fd_sc_hd__nor2b_4 into sky130_fd_sc_hd__nor2b_4.ext:
+Extracting sky130_fd_sc_hd__xnor2_4 into sky130_fd_sc_hd__xnor2_4.ext:
+Extracting sky130_fd_sc_hd__and4_2 into sky130_fd_sc_hd__and4_2.ext:
+Extracting sky130_fd_sc_hd__nand2b_4 into sky130_fd_sc_hd__nand2b_4.ext:
+Extracting sky130_fd_sc_hd__and3b_2 into sky130_fd_sc_hd__and3b_2.ext:
+Extracting sky130_fd_sc_hd__and3b_4 into sky130_fd_sc_hd__and3b_4.ext:
+Extracting sky130_fd_sc_hd__and3_2 into sky130_fd_sc_hd__and3_2.ext:
+Extracting sky130_fd_sc_hd__and3_4 into sky130_fd_sc_hd__and3_4.ext:
+Extracting sky130_fd_sc_hd__or3b_4 into sky130_fd_sc_hd__or3b_4.ext:
+Extracting sky130_fd_sc_hd__nand3_4 into sky130_fd_sc_hd__nand3_4.ext:
+Extracting sky130_fd_sc_hd__or3_4 into sky130_fd_sc_hd__or3_4.ext:
+Extracting sky130_fd_sc_hd__nand3b_4 into sky130_fd_sc_hd__nand3b_4.ext:
+Extracting sky130_fd_sc_hd__clkinv_8 into sky130_fd_sc_hd__clkinv_8.ext:
+Extracting sky130_fd_sc_hd__a32o_4 into sky130_fd_sc_hd__a32o_4.ext:
+Extracting sky130_fd_sc_hd__buf_8 into sky130_fd_sc_hd__buf_8.ext:
+Extracting sky130_fd_sc_hd__inv_4 into sky130_fd_sc_hd__inv_4.ext:
+Extracting sky130_fd_sc_hd__o21a_2 into sky130_fd_sc_hd__o21a_2.ext:
+Extracting sky130_fd_sc_hd__inv_12 into sky130_fd_sc_hd__inv_12.ext:
+Extracting TopModule into TopModule.ext:
+exttospice finished.

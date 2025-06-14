@@ -1,4 +1,0 @@
-[WARNING]: 440 warnings found by linter
-[WARNING]: VSRC_LOC_FILES was not given a value, which may make the results of IR drop analysis inaccurate. If you are not integrating a top-level chip for manufacture, you may ignore this warning, otherwise, see the documentation for VSRC_LOC_FILES.
-[WARNING]: There are max slew violations in the design at the Typical corner. Please refer to 'designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/reports/signoff/29-sta-rcx_nom/multi_corner_sta.checks.rpt'.
-[WARNING]: There are max capacitance violations in the design at the Typical corner. Please refer to 'designs/alu_and_register/runs/RUN_2025.06.03_11.26.31/reports/signoff/29-sta-rcx_nom/multi_corner_sta.checks.rpt'.

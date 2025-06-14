@@ -1,0 +1,7 @@
+Partial/Required:  2.42, Required:    400.0, Partial:   966.22, Net: _1135_, Pin: _4747_/A, Layer: met2
+Partial/Required:  1.83, Required:    400.0, Partial:   733.39, Net: net85, Pin: output85/A, Layer: met3
+Partial/Required:  1.46, Required:    400.0, Partial:   583.57, Net: net109, Pin: output109/A, Layer: met3
+Partial/Required:  1.31, Required:    400.0, Partial:   524.74, Net: _1966_, Pin: _6021_/A, Layer: met3
+Partial/Required:  1.31, Required:    400.0, Partial:   524.74, Net: _1966_, Pin: _6019_/A, Layer: met3
+Partial/Required:  1.09, Required:    400.0, Partial:   437.44, Net: _1940_, Pin: _5381_/C1, Layer: met3
+Partial/Required:  1.09, Required:    400.0, Partial:   437.44, Net: _1940_, Pin: _5430_/B1, Layer: met3

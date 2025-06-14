@@ -1,37 +1,38 @@
 {
-    "//": "Basics",
-    "DESIGN_NAME": "TopModule",
-    "VERILOG_FILES": "dir::src/*.v",
+  "//": "Basics",
+  "DESIGN_NAME": "TopModule",
+  "VERILOG_FILES": "dir::src/*.v",
+  "CLOCK_PERIOD": 10,
+  "CLOCK_PORT": "CLK",
+  "PNR_SDC_FILE": "dir::src/TopModule.sdc",
+  "SIGNOFF_SDC_FILE": "dir::src/TopModule.sdc",
+  "PL_RANDOM_GLB_PLACEMENT": false,
+  "FP_SIZING": "absolute",
+  "DIE_AREA": "0 0 400 400",
+  "PL_TARGET_DENSITY": 0.81,
+  "FP_CORE_UTIL": 40,
+  "FP_PDN_AUTO_ADJUST": false,
+  "FP_PDN_VPITCH": 40,
+  "FP_PDN_HPITCH": 40,
+  "FP_PDN_VOFFSET": 10,
+  "FP_PDN_HOFFSET": 10,
+  "//": "Pin Order",
+  "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+  "//": "Technology-Specific Configs",
+  "pdk::sky130*": {
+    "FP_CORE_UTIL": 30,
     "CLOCK_PERIOD": 10,
-    "CLOCK_PORT": "CLK",
-    "PNR_SDC_FILE": "dir::src/TopModule.sdc",
-    "SIGNOFF_SDC_FILE": "dir::src/TopModule.sdc",
-    "PL_RANDOM_GLB_PLACEMENT": true,
-    "FP_SIZING": "absolute",
-    "DIE_AREA": "0 0 3500 3500",
-    "PL_TARGET_DENSITY": 0.35,
-    "FP_PDN_AUTO_ADJUST": false,
-    "FP_PDN_VPITCH": 40,
-    "FP_PDN_HPITCH": 40,
-    "FP_PDN_VOFFSET": 10,
-    "FP_PDN_HOFFSET": 10,
-    "//": "Pin Order",
-    "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
-    "//": "Technology-Specific Configs",
-    "pdk::sky130*": {
-        "FP_CORE_UTIL": 30,
-        "CLOCK_PERIOD": 10,
-        "scl::sky130_fd_sc_hs": {
-            "CLOCK_PERIOD": 8
-        },
-        "scl::sky130_fd_sc_ls": {
-            "MAX_FANOUT_CONSTRAINT": 5
-        }
+    "scl::sky130_fd_sc_hs": {
+      "CLOCK_PERIOD": 8
     },
-    "pdk::gf180mcu*": {
-        "CLOCK_PERIOD": 24.0,
-        "FP_CORE_UTIL": 25,
-        "MAX_FANOUT_CONSTRAINT": 4,
-        "PL_TARGET_DENSITY": 0.35
+    "scl::sky130_fd_sc_ls": {
+      "MAX_FANOUT_CONSTRAINT": 5
     }
-} 
+  },
+  "pdk::gf180mcu*": {
+    "CLOCK_PERIOD": 24.0,
+    "FP_CORE_UTIL": 25,
+    "MAX_FANOUT_CONSTRAINT": 4,
+    "PL_TARGET_DENSITY": 0.35
+  }
+}

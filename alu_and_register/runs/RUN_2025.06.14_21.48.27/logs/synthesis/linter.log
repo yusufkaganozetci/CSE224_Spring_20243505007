@@ -1,0 +1,14 @@
+%Warning-EOFNEWLINE: /openlane/designs/alu_and_register/src/register_file.v:24:10: Missing newline at end of file (POSIX 3.206).
+                                                                                 : ... Suggest add newline.
+   24 | endmodule
+      |          ^
+                     ... For warning description see https://verilator.org/warn/EOFNEWLINE?v=5.018
+                     ... Use "/* verilator lint_off EOFNEWLINE */" and lint_on around source to disable this message.
+%Warning-EOFNEWLINE: /openlane/designs/alu_and_register/src/alu.v:18:10: Missing newline at end of file (POSIX 3.206).
+                                                                       : ... Suggest add newline.
+   18 | endmodule
+      |          ^
+%Warning-EOFNEWLINE: /openlane/designs/alu_and_register/src/TopModule.v:35:10: Missing newline at end of file (POSIX 3.206).
+                                                                             : ... Suggest add newline.
+   35 | endmodule
+      |          ^
